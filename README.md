@@ -25,9 +25,7 @@ Cultfit.com is a fitness-based website with a lot of services like yoga videos, 
 
 ## Landing Page
 
-<img src="Images/landing1.jpg" alt="Alt text" title="Optional title">
-
-![Landing Image 1](Images/landing1.jpg)
+![Landing Image 1](cf-images/landing1.jpg)
 
 ![Landing Image 2](Images/landing2.jpg)
 
