@@ -1,0 +1,197 @@
+.greylink20{
+    font-family: sans-serif;
+    color: rgb(195, 195, 195);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#sidenavbar{
+    display: none;
+}
+#stickynavbar{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    width:100%;
+    
+}
+#stickynavbar>div{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px 0px;
+}
+#stickynavbar>div>img{
+    width:30px;
+    border-radius: 50%;
+}
+#stickynavbar>div>button{
+    background-color: transparent;
+    border:1px solid rgba(255, 255, 255, 0.676);
+    border-radius: 5px;
+    color: white;
+}
+#stickynavbar>div>input,#sidenavbar>input{
+    background-color: transparent;
+    border:1px solid rgba(255, 255, 255, 0.676);
+    border-radius: 5px;
+    color: white;
+}
+#stickynavbar>div>a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding:5px 20px;
+}
+#stickynavbar>a{
+    padding:12px 20px;
+    
+}
+#stickynavbar>a>img{
+    width:100px;
+}
+#stickynavbar>div>a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+    transition:2s;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(71, 71, 71);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top:0;
+    width:100%;
+    height:30px;
+    z-index: 100;
+}
+#navbar>a{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:5px 10px;
+    transition:0.5s;
+}
+#navbar>a:hover{
+    background-color: grey;
+    border-radius: 5px;
+    padding:5px 10px
+    
+}
+#navbar>button{
+    background-color:rgba(105, 105, 105, 0.535);
+    border:0px;
+    padding:3px 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#bottom{
+    display: none;
+}
+#navbarmenu{
+    display: none;
+}
+
+@media all and (min-width:300px) and (max-width:900px){
+    #stickynavbar{
+        display: none;
+    }
+    #sidenavbar{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #navbarmenu{
+        display: block;
+        width:0px;
+        height:100%;
+        background-color: rgba(33, 33, 33, 0.871);
+        position: fixed;
+        top:0px;
+        left: 0px;
+        z-index: 100;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    #head{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        margin: 2%;
+        padding:2% 0px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.482);
+    }
+    #head>div{
+        display:flex;
+        gap: 5px;
+    }
+    #head>div>img{
+        border-radius: 50%;
+    }
+    #body{
+        margin-left: 30px;
+    }
+    #body>a,#body>div>a{
+        text-decoration: none;
+    }
+    #body>div{
+        display: block;
+        height: 50px;
+        overflow: hidden;
+        transition: height 1s;
+        transition-timing-function: ease-out;
+    }
+    #fit:hover{
+        height: 230px;
+    }
+    #care:hover{
+        height: 80px;
+    }
+    #mind:hover{
+        height: 120px;
+    }
+    #body>div>li{
+        line-height: 25px;  
+    }
+    #navbar>a{
+        font-size: 16px;
+    }
+    #bottom{
+        display: block;
+        position: sticky;
+        bottom: 0px;
+        text-align: center;
+        background-color: rgb(85, 85, 85);
+    }
+    #bottom>button{
+        width:70%;
+        color: red;
+        border: 0px;
+        border-radius: 5px;
+        padding:1%;
+        margin:1%;
+    }
+}
+@media all and (min-width:400px) and (max-width:800px){
+    #navbar>a{
+        font-size: 10px;
+    }
+}

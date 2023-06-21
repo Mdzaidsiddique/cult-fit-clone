@@ -1,0 +1,728 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  height: 40px;
+  padding: 20px 50px;
+  background-color: #fff;
+  display: flex;
+  /*  justify-content: space-around; */
+  align-items: center;
+  gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#logo > img {
+  width: 150px;
+}
+
+#logo > div {
+  /* padding: 10px 0px; */
+  width: 135px;
+  height: 35px;
+}
+
+#logo > div > img {
+  width: 100%;
+}
+
+.anchor_text {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #262626;
+}
+
+#men_div,
+#women_div,
+#smart_div,
+#outdoor_div,
+#access_div,
+#nutrition_div,
+#wellness_div {
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 8px;
+  z-index: 1;
+  /* width: 10%; */
+  width: 120px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#men_div > div,
+#women_div > div,
+#smart_div > div,
+#outdoor_div > div,
+#access_div > div,
+#nutrition_div > div,
+#wellness_div > div {
+  padding: 12px;
+}
+
+#access_div,
+#nutrition_div {
+  top: 55px;
+}
+
+#men_div > div:hover,
+#women_div > div:hover,
+#smart_div > div:hover,
+#outdoor_div > div:hover,
+#access_div > div:hover,
+#nutrition_div > div:hover,
+#wellness_div > div:hover {
+  background-color: rgba(128, 128, 128, 0.37);
+}
+
+#men_div > div > a,
+#women_div > div > a,
+#smart_div > div > a,
+#outdoor_div > div > a,
+#access_div > div > a,
+#nutrition_div > div > a,
+#wellness_div > div > a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+#main-div1:hover #men_div,
+#main-div2:hover #women_div,
+#main-div3:hover #smart_div,
+#main-div4:hover #outdoor_div,
+#main-div5:hover #access_div,
+#main-div6:hover #nutrition_div,
+#main-div7:hover #wellness_div {
+  display: inherit;
+
+  /* left: 10.5%; */
+}
+
+#main-div1,
+#main-div2,
+#main-div3,
+#main-div4,
+#main-div5,
+#main-div6,
+#main-div7 {
+  position: relative;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+#slideshow {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#slideshow > img {
+  width: 100%;
+}
+
+#bestsellers,
+#just_launched,
+#treadmills,
+#spinbikes,
+#cycles,
+#accessories,
+#topwear,
+#bottomwear,
+#health {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  z-index: -1;
+}
+
+#bestsellers > div > span,
+#just_launched > div > span,
+#treadmills > div > span,
+#spinbikes > div > span,
+#cycles > div > span,
+#accessories > div > span,
+#topwear > div > span,
+#bottomwear > div > span,
+#health > div > span {
+  z-index: -1;
+  font-size: 30px;
+  color: #333333;
+  font-family: Poppins-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#bestsellers > div > p,
+#just_launched > div > p,
+#cycles > div > p,
+#accessories > div > p,
+#topwear > div > p,
+#bottomwear > div > p,
+#health > div > p {
+  z-index: -1;
+  font-size: 25px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+#bestsellers > div:first-child,
+#just_launched > div:first-child,
+#treadmills > div:first-child,
+#spinbikes > div:first-child,
+#cycles > div:first-child,
+#accessories > div:first-child,
+#topwear > div:first-child,
+#bottomwear > div:first-child,
+#health > div:first-child {
+  width: 80%;
+  z-index: -1;
+}
+
+#bestsellers,
+#just_launched,
+#treadmills,
+#spinbikes,
+#cycles,
+#accessories,
+#topwear,
+#bottomwear,
+#health {
+  z-index: -1;
+  display: flex;
+}
+
+#left1,
+#right1,
+#left2,
+#right2,
+#left3,
+#right3,
+#left4,
+#right4,
+#left5,
+#right5,
+#left6,
+#right6,
+#left7,
+#right7,
+#left8,
+#right8,
+#left9,
+#right9 {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 55%;
+  font-size: 18px;
+  background-color: white;
+}
+
+#bestsellers_container,
+#jl_container,
+#tread_container,
+#bike_container,
+#cycle_container,
+#access_container,
+#top_container,
+#bottom_container,
+#health_container {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  z-index: -1;
+  justify-content: left;
+  overflow-x: auto;
+}
+
+#bestsellers_container > div,
+#jl_container > div,
+#tread_container > div,
+#bike_container > div,
+#cycle_container > div,
+#access_container > div,
+#top_container > div,
+#bottom_container > div,
+#health_container > div {
+  z-index: -1;
+  min-width: 270px;
+  height: auto;
+  position: relative;
+  left: 0;
+  padding-top: 50px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+#bestsellers_container::-webkit-scrollbar,
+#jl_container::-webkit-scrollbar,
+#tread_container::-webkit-scrollbar,
+#bike_container::-webkit-scrollbar,
+#cycle_container::-webkit-scrollbar,
+#access_container::-webkit-scrollbar,
+#top_container::-webkit-scrollbar,
+#bottom_container::-webkit-scrollbar,
+#health_container::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+#bestsellers_container > div > img,
+#jl_container > div > img,
+#tread_container > div > img,
+#bike_container > div > img,
+#cycle_container > div > img,
+#access_container > div > img,
+#top_container > div > img,
+#bottom_container > div > img,
+#health_container > div > img {
+  width: 100%;
+  height: 450px;
+}
+
+#bestsellers_container > div > p,
+#jl_container > div > p,
+#tread_container > div > p,
+#bike_container > div > p,
+#cycle_container > div > p,
+#access_container > div > p,
+#top_container > div > p,
+#bottom_container > div > p,
+#health_container > div > p {
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 600;
+  margin: 14px 0px 0px;
+}
+
+#bestsellers_container > div > h1,
+#jl_container > div > h1,
+#tread_container > div > h1,
+#bike_container > div > h1,
+#cycle_container > div > h1,
+#access_container > div > h1,
+#top_container > div > h1,
+#bottom_container > div > h1,
+#health_container > div > h1 {
+  font-size: 20px;
+  margin: 10px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+#bestsellers_container > div > h2,
+#jl_container > div > h2,
+#tread_container > div > h2,
+#bike_container > div > h2,
+#cycle_container > div > h2,
+#access_container > div > h2,
+#top_container > div > h2,
+#bottom_container > div > h2,
+#health_container > div > h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin: 12px 10px 12px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000cd;
+}
+
+#bestsellers_container > div > span,
+#jl_container > div > span,
+#tread_container > div > span,
+#bike_container > div > span,
+#cycle_container > div > span,
+#access_container > div > span,
+#top_container > div > span,
+#bottom_container > div > span,
+#health_container > div > span {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 600;
+  margin: 14px 0px 0px;
+  text-decoration-line: line-through;
+}
+
+#bestsellers_container > div > button,
+#jl_container > div > button,
+#tread_container > div > button,
+#bike_container > div > button,
+#cycle_container > div > button,
+#access_container > div > button,
+#top_container > div > button,
+#bottom_container > div > button,
+#health_container > div > button {
+  display: block;
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: salmon;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+}
+
+#faq {
+  width: 90%;
+  background-color: whitesmoke;
+  height: auto;
+  padding: 20px 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#faq > div {
+  margin-bottom: 50px;
+}
+
+#faq > div > div:first-child {
+  font-size: 38px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#faq > div > div:last-child {
+  color: #6a6a6a;
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+#faq > div > a {
+  text-decoration: none;
+  color: salmon;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+#ques {
+  padding: 50px 100px;
+}
+
+#ques > div > ul > li {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: grey;
+}
+
+#ques > div {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  height: 1px;
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+.fa-solid {
+  font-size: 25px;
+  color: salmon;
+  margin-right: 20px;
+}
+
+#ques > #acc_cont1,
+#ques > #acc_cont2 {
+  display: none;
+  padding: 20px 50px;
+}
+
+#span1,
+#span2 {
+  display: block;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 16px;
+  width: 80%;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+@media all and (min-width: 768px) and (max-width: 1068px) {
+  #slideshow {
+    width: 130%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  #bestsellers_container,
+  #jl_container,
+  #tread_container,
+  #bike_container,
+  #cycle_container,
+  #access_container,
+  #top_container,
+  #bottom_container,
+  #health_container {
+    width: 130%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+  }
+
+  #bestsellers_container > div,
+  #jl_container > div,
+  #tread_container > div,
+  #bike_container > div,
+  #cycle_container > div,
+  #access_container > div,
+  #top_container > div,
+  #bottom_container > div,
+  #health_container > div {
+    min-width: 270px;
+    height: auto;
+    position: relative;
+    left: 0;
+    padding-top: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+  }
+
+  #bestsellers,
+  #just_launched,
+  #treadmills,
+  #spinbikes,
+  #cycles,
+  #accessories,
+  #topwear,
+  #bottomwear,
+  #health {
+    width: 100%;
+    /* margin: auto; */
+    margin-left: 100px;
+  }
+}
+
+@media all and (min-width: 450px) and (max-width: 760px) {
+  #slideshow {
+    width: 250%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  #bestsellers_container,
+  #jl_container,
+  #tread_container,
+  #bike_container,
+  #cycle_container,
+  #access_container,
+  #top_container,
+  #bottom_container,
+  #health_container {
+    width: 250%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+  }
+
+  #bestsellers_container > div,
+  #jl_container > div,
+  #tread_container > div,
+  #bike_container > div,
+  #cycle_container > div,
+  #access_container > div,
+  #top_container > div,
+  #bottom_container > div,
+  #health_container > div {
+    min-width: 270px;
+    height: auto;
+    position: relative;
+    left: 0;
+    padding-top: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+  }
+
+  #bestsellers,
+  #just_launched,
+  #treadmills,
+  #spinbikes,
+  #cycles,
+  #accessories,
+  #topwear,
+  #bottomwear,
+  #health {
+    width: 140%;
+    margin: auto;
+    margin-left: 150px;
+  }
+}
+
+#login > i,
+#cart1 > i {
+  color: black;
+}
+
+#logindiv {
+  transition: step-start;
+  display: none;
+  background-color: rgba(0, 0, 0);
+  position: absolute;
+  top: 100%;
+  left: 35%;
+  width: 28%;
+  margin: auto;
+  z-index: 5;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding-bottom: 80px;
+}
+
+#loginlogo {
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#loginlogo > img {
+  width: 100%;
+}
+
+#cross > div > i {
+  color: white;
+}
+
+#cross > div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -20px;
+}
+
+#form {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#mobile {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+#sub {
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+}
+
+#google {
+  border: 1px solid grey;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#google > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#google > div > p {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: grey;
+}
+
+.fa-envelope,
+.fa-google {
+  color: white;
+}
+
+#terms {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+
+#cartdiv {
+  display: none;
+  width: 300px;
+  border: 1px solid whitesmoke;
+  height: 800px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  z-index: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#cartdiv > div {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+#cartdiv > div {
+  width: 80%;
+}
+
+#cartdiv > div > div > img {
+  width: 100%;
+}
+
+#cartdiv > div > div > p:first-child {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#cartdiv > div > div > p:last-child {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+#cartdiv button {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  width: 150px;
+  height: 40px;
+  background-color: salmon;
+  border: none;
+  border-radius: 20px;
+}
