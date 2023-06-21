@@ -1,27 +1,27 @@
-## Hello Everyone
+# Cult Fit Clone
 
-This is a construct week project where we had clone Cultfit.com website with a team of 5 members and a duration of 5 days.
+### This is a construct week project where I had to clone the Cultfit.com website within a duration of 5 days. I have tried to clone as much functionality as I have learned till yet.
 
-## About Website
+## About Website :
 
-Cultfit.com is a fitness based website with lot of services like yoga videos, training sessions and an ecommerce store where one can purchase a variety of fitness equipments and products.
+Cultfit.com is a fitness-based website with a lot of services like yoga videos, training sessions, and an e-commerce store where one can purchase a variety of fitness types of equipment and products.
 
-## Tech Stack
+## Tech Stack :
 
 - HTML
 - CSS
 - JavaScript
 - ES6
 
-## Tools
+## Tools :
 
 - Local Storage
 
-## Features
+## Features :
 
 - Login/signup functionality
 - Add to cart
-- Static pages and good User Interface
+- Static pages and a good User Interface
 
 ## Landing Page
 
