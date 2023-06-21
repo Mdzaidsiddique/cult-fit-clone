@@ -1,0 +1,9 @@
+document.getElementById("know").addEventListener("click",function(){
+    window.location.href="knowMore.html";
+})
+document.querySelector("#mind").addEventListener("click",function(){
+    window.location.href="mindTherapy.html";
+})
+document.getElementById("ful").addEventListener("click",function(){
+    window.location.href="mindfulness.html";
+})
