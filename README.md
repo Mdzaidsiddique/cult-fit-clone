@@ -1,5 +1,7 @@
 # Cult Fit Clone
 
+![cultfit](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/49fb19f7-bbee-4f00-b93e-196c7a49b011)
+
 ### This is a construct week project where I had to clone the Cultfit.com website within a duration of 5 days. I have tried to clone as much functionality as I have learned till yet.
 
 ## About Website :
@@ -25,28 +27,26 @@ Cultfit.com is a fitness-based website with a lot of services like yoga videos, 
 
 ## Landing Page
 
-![Landing Image 1](cf-images/landing1.jpg)
-
-![Landing Image 2](Images/landing2.jpg)
+![landing1](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/84997dd1-21a0-4d1d-822a-4ceda802110c)
+![landing2](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/904373df-3024-4d4b-aea5-066464a0c462)
 
 ## Fitness Page
-
-![Fitness](Images/fitness.jpg)
-
-![Fitness 2](Images/fitness2.jpg)
+![fitness](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/033b8ca3-f125-45eb-accc-7bcfedd37b75)
+![fitness2](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/9317fb4b-579a-430e-aeb6-ed85bfeec0ba)
 
 ## Mind Page
 
-![Mind Page 1](Images/mind1.jpg)
+![mind1](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/6c8982da-ec9d-4bd0-b38f-55ca5386773d)
 
-![Mind Page 2](Images/mind2.jpg)
+![mind2](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/6bda6e7c-9f8c-47ab-ae87-35eaa970c6eb)
 
 ## Care Page
 
-![Care Page 1](Images/care1.jpg)
+![care1](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/0e85c404-2d05-4b4a-ad82-d5114c5be00d)
+![care2](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/4eb4d80b-3bda-4a22-b4e8-6be0aee62d5f)
 
-![Care Page 2](Images/care2.jpg)
 
 ## Store Page
 
-# ![Store Page](Images/store.jpg)
+![store](https://github.com/Mdzaidsiddique/cult-fit-clone/assets/87862008/14106e4f-7139-4e4a-9063-9a1828d8e36c)
+
